@@ -23,6 +23,7 @@ object TikaOCRParser {
     val tessConf = new TesseractOCRConfig()
     tessConf.setLanguage("eng")
     tessConf.setEnableImageProcessing(1)
+    tessConf.setColorspace("all")
 
     tessConf
   }
