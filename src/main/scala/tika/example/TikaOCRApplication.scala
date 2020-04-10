@@ -9,7 +9,7 @@ import org.apache.tika.sax.BodyContentHandler
 import scala.util.{Failure, Success, Using}
 
 object TikaOCRApplication extends App {
-  val input = getClass.getResourceAsStream("/ExampleOCR.jpg")
+  val input = getClass.getResourceAsStream("/Apache_Tika_Logo.jpg")
 
   val outputStream = new ByteArrayOutputStream()
 
